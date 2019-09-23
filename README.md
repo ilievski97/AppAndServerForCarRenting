@@ -1,5 +1,4 @@
 # Car rental app
-Ionic and nodejs
 
 A small prototype from an ionic start up template and nodejs for the server
 
