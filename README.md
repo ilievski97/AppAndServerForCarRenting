@@ -1,7 +1,7 @@
-# AppAndServerForCarRenting
+# Car rental app
 Ionic and nodejs
 
-Fast prototype from an ionic start up template and a nodejs server 
+A small prototype from an ionic start up template and nodejs for the server
 
 Added app features:
 1. User can edit his profile photo,email,password,address
