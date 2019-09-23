@@ -1,9 +1,7 @@
 # AppAndServerForCarRenting
 Ionic and nodejs
 
-app: Fast prototype from an ionic start up template
-server: nodejs server from scratch
-database: lokijs
+Fast prototype from an ionic start up template and a nodejs server 
 
 Added app features:
 1. User can edit his profile photo,email,password,address
@@ -17,4 +15,5 @@ TODO (DEADLINE 25/09/19):
 1. clicking buy should notify the owner, and provide contact to the buyer
 2. change the database to mongodb
 3. transfer the http requests to a new service
-4. documentation
+4. make the server async
+5. documentation
