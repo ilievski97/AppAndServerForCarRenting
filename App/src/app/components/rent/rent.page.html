@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button color="secondary"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      <ion-text color="light">
+        <ion-text color="light" class="fw700">Home</ion-text>
+      </ion-text>
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar color="dark">
+    <ion-searchbar [(ngModel)]="searchKey" (change)="onSearch(event)"></ion-searchbar>
+    <ion-buttons slot="end">
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card *ngFor="let item of cars">
+    <ion-card-header>
+      <ion-card-subtitle>{{item.location}}</ion-card-subtitle>
+      <ion-card-title>{{item.model}}</ion-card-title>
+      <ion-img src="{{item.imageUrl}}"></ion-img>
+    </ion-card-header>
+
+    <ion-card-content>
+     {{item.description}}
+    </ion-card-content>
+    <ion-card-content>
+      <ion-item href="#" class="activated">
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Available Data: {{item.startDate}}</ion-label>
+      </ion-item>
+      <ion-item href="#" class="activated">
+        <ion-icon name="wifi" slot="start"></ion-icon>
+        <ion-label>Year: {{item.year}}</ion-label>
+      </ion-item>
+      <ion-item (click)="onClickDelToast(item.id)" class="activated">
+        <ion-button>BUY</ion-button>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
