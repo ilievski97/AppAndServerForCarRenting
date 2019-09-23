@@ -6,12 +6,12 @@ server: nodejs server from scratch
 database: lokijs
 
 Added app features:
-*User can edit his profile photo,email,password,address
-*Added a photo picker for the cars (works only with jpg files)
-*search bar(works only based on car location) 
-*sign up 
-*login 
-*add cars
+1. User can edit his profile photo,email,password,address
+2. Added a photo picker for the cars (works only with jpg files)
+3. search bar(works only based on car location) 
+4. sign up 
+5. login 
+6. add cars
 
 TODO (DEADLINE 25/09/19):
 1. clicking buy should notify the owner, and provide contact to the buyer
