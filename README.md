@@ -9,7 +9,7 @@ Added app features:
 3. search bar(works only based on car location) 
 4. sign up 
 5. login 
-6. add cars
+6. publish cars
 
 TODO (DEADLINE 25/09/19):
 1. clicking buy should notify the owner, and provide contact to the buyer
